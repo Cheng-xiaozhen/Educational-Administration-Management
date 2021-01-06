@@ -11,6 +11,7 @@ namespace EAM.DAL
 {
     public static class SqlHelper
     {
+        //从配置文件中读取数据库连接字符串
         private static readonly string conStr = ConfigurationManager.ConnectionStrings["mssql"].ConnectionString;
 
 

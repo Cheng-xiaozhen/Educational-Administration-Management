@@ -107,6 +107,8 @@ namespace Educational_Administration_Management.UserControls
             {
                 MessageBox.Show("添加成功");
                 LoadCourseInfo();
+                textBox1.Text = "";
+                textBox2.Text = "";
             }
            else
             {
