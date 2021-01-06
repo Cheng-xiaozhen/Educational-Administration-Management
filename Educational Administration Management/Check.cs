@@ -9,6 +9,7 @@ namespace Educational_Administration_Management
 {
     public static class Check
     {
+            
         public static bool isStudentID(string id)
         {
             return Regex.IsMatch(id, @"^2020[0-9]{4,7}$");
